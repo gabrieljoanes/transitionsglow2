@@ -2,6 +2,9 @@ import streamlit as st
 import traceback
 from utils.io import load_examples, load_all_transitions
 from utils.processing import get_transition_from_gpt
+import inspect
+import utils.processing
+st.write("📦 Loaded processing.py from:", inspect.getfile(utils.processing))
 from utils.layout import rebuild_article_with_transitions
 from utils.display import layout_title_and_input, show_output, show_version
 from utils.version import compute_version_hash
