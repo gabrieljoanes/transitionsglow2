@@ -1,11 +1,5 @@
-Here is your complete `app.py` rewritten to include a global `try/except` around the `main()` call that displays the **full traceback** in the Streamlit interface. I made only minimal modifications at the end — the rest of your code is untouched for clarity and stability.
-
----
-
-### ✅ Fully Rewritten `app.py` with Traceback Display
-
-````python
 import streamlit as st
+import traceback
 from utils.io import load_examples, load_all_transitions
 from utils.processing import get_transition_from_gpt
 from utils.layout import rebuild_article_with_transitions
@@ -14,15 +8,13 @@ from utils.version import compute_version_hash
 from utils.title_blurb import generate_title_and_blurb
 from utils.logger import save_output_to_file, logger
 from utils.validate_prompt_compliance import validate_batch, display_validation_results
+from utils.google_drive import get_google_drive_service, list_folder_contents, process_drive_files
 from datetime import datetime
 import pandas as pd
 import io
-from utils.google_drive import get_google_drive_service, list_folder_contents, process_drive_files
 
 def process_uploaded_files(uploaded_files):
-    """Process multiple uploaded files and return a list of (filename, transitions) tuples."""
     results = []
-    
     for uploaded_file in uploaded_files:
         try:
             content = uploaded_file.getvalue().decode('utf-8')
@@ -36,15 +28,14 @@ def process_uploaded_files(uploaded_files):
                 if line and line[0].isdigit() and ". " in line:
                     transition = line.split(". ", 1)[1].strip()
                     transitions.append(transition)
-            
+
             if transitions:
-                filename = uploaded_file.name
-                results.append((filename, transitions))
-                
+                results.append((uploaded_file.name, transitions))
+
         except Exception as e:
             logger.error(f"Error processing file {uploaded_file.name}: {str(e)}")
             continue
-            
+
     return results
 
 def main():
@@ -104,14 +95,14 @@ def main():
                 else:
                     st.session_state['title_text'] = 'Titre non défini'
                     st.session_state['chapo_text'] = 'Chapeau non défini'
-                
+
                 st.session_state['rebuilt_text'] = rebuilt_text
                 st.session_state['generated_transitions'] = generated_transitions
 
-            except Exception as e:
-                error_msg = f"Une erreur est survenue: {str(e)}"
-                logger.error(error_msg)
-                st.error(error_msg)
+            except Exception:
+                st.error("🚨 Une erreur est survenue lors de la génération.")
+                st.code(traceback.format_exc(), language="python")
+                logger.error(traceback.format_exc())
 
     with tab2:
         if 'rebuilt_text' in st.session_state:
@@ -160,12 +151,11 @@ def main():
         transition3
         ```
         """)
-        
         try:
             drive_service = get_google_drive_service()
             folder_id = st.secrets.get("gdrive_folder_id")
             files = list_folder_contents(drive_service, folder_id)
-            
+
             if files:
                 selected_files = []
                 selected = st.multiselect(
@@ -186,11 +176,11 @@ def main():
                         st.warning("⚠️ Aucune transition n'a pu être extraite des fichiers sélectionnés.")
             else:
                 st.warning("⚠️ Aucun fichier texte trouvé dans le dossier Google Drive.")
-                
-        except Exception as e:
-            st.error(f"Erreur lors de l'accès à Google Drive: {str(e)}")
-            logger.error(f"Google Drive access error: {str(e)}")
-        
+        except Exception:
+            st.error("🚨 Une erreur est survenue lors de l'accès à Google Drive.")
+            st.code(traceback.format_exc(), language="python")
+            logger.error(traceback.format_exc())
+
         st.markdown(f"""
         ### 📁 Accès au dossier Google Drive
         [Ouvrir le dossier Google Drive](https://drive.google.com/drive/folders/{st.secrets.get("gdrive_folder_id")})
@@ -199,14 +189,8 @@ def main():
     show_version(VERSION)
 
 if __name__ == "__main__":
-    import traceback
     try:
         main()
-    except Exception as e:
+    except Exception:
         st.error("🚨 Une erreur inattendue est survenue dans l'application.")
         st.code(traceback.format_exc(), language="python")
-````
-
----
-
-Let me know if you want to log this error to a file, filter out internal traces, or display only user-written source file lines in the traceback.
