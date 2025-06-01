@@ -62,11 +62,18 @@ def generate_title_and_blurb(paragraph: str):
     st.code(response.text)
 
     if response.status_code != 200:
-        raise Exception(f"API request failed with status code {response.status_code}")
+        raise Exception(
+            f"API request failed with status code {response.status_code}\n"
+            f"Response content:\n{response.text}"
+        )
 
     response_data = response.json()
 
     if response_data.get("status") != "success":
-        raise Exception(f"API request failed: {response_data.get('error', 'Unknown error')}")
+        raise Exception(
+            f"API request failed:\nStatus: {response_data.get('status')}\n"
+            f"Error: {response_data.get('error', 'Unknown error')}\n"
+            f"Full response:\n{response.text}"
+        )
 
     return response_data["reply"].strip()
