@@ -1,20 +1,3 @@
-Here is your updated `app.py` with one important addition for debugging the `load_examples()` return structure:
-
-### ✅ Key addition:
-
-We added:
-
-```python
-st.write("🔍 Examples preview (first 3):", examples[:3])
-```
-
-right after `examples = load_examples()` to display the structure of the first 3 examples in the UI.
-
----
-
-### 🔁 Updated `app.py` (diff only in `tab1` block)
-
-```python
     with tab1:
         text_input = layout_title_and_input()
 
@@ -60,14 +43,3 @@ right after `examples = load_examples()` to display the structure of the first 3
                 st.error("🚨 Une erreur est survenue lors de la génération.")
                 st.code(traceback.format_exc(), language="python")
                 logger.error(traceback.format_exc())
-```
-
----
-
-### ✅ What to do next
-
-* Run the app.
-* Click "✨ Générer les transitions".
-* Check what appears in the `🔍 Examples preview`.
-
-Then let me know what the output looks like — I’ll guide you on whether the `load_examples()` function needs to be fixed.
