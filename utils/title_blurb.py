@@ -34,17 +34,7 @@ Chapeau : [chapeau généré]
 """
 
 def generate_title_and_blurb(paragraph: str):
-    messages = [
-        {"role": "system", "content": PROMPT},
-        {"role": "user", "content": paragraph.strip()}
-    ]
-
-    payload = {
-        "model": "gpt-4",
-        "messages": messages,
-        "temperature": 0.5,
-        "max_tokens": 150
-    }
+    prompt_text = PROMPT + "\n\n" + paragraph.strip()
 
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
@@ -53,9 +43,9 @@ def generate_title_and_blurb(paragraph: str):
 
     # 🔍 Debug log
     st.write("🧪 Prompt sent to API:")
-    st.code(PROMPT + "\n\n" + paragraph.strip())
+    st.code(prompt_text)
 
-    response = requests.post(API_URL, headers=headers, json=payload)
+    response = requests.post(API_URL, headers=headers, json={"prompt": prompt_text})
 
     # 🔍 Debug log
     st.write("🧪 Raw API response:")
