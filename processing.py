@@ -36,11 +36,15 @@ def get_transition_from_gpt(para_a, para_b, examples, model="gpt-4"):
     # Prepare messages for OpenAI chat completion
     messages = [{"role": "system", "content": system_prompt}]
     for ex in selected_examples:
-        if "paragraph_a" in ex and "transition" in ex:
-            messages.append({"role": "user", "content": ex["paragraph_a"]})
-            messages.append({"role": "assistant", "content": ex["transition"]})
+        if "paragraph_a" in ex and "paragraph_b" in ex and "transition" in ex:
+            messages.append({
+                "role": "user",
+                "content": f"{ex['paragraph_a'].strip()}\nTRANSITION\n{ex['paragraph_b'].strip()}"
+            })
+            messages.append({"role": "assistant", "content": ex["transition"].strip()})
         else:
             raise ValueError(f"Example format invalid: {ex}")
+
 
 
     # Add the real paragraph pair
