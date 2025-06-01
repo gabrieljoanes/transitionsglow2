@@ -1,3 +1,4 @@
+print("🔁 Loaded UPDATED processing.py")
 def get_transition_from_gpt(para_a, para_b, examples, model="gpt-4"):
     raise RuntimeError("✅ This is the updated version of get_transition_from_gpt()")
 
