@@ -1,16 +1,14 @@
 # utils/title_blurb.py
 
 import requests
-import os
 import streamlit as st
 
-# Get token and URL from environment variables
-# Get token and URL from Streamlit secrets instead of env vars
+# Load API credentials from Streamlit secrets
 API_TOKEN = st.secrets.get("API_TOKEN")
 API_URL = st.secrets.get("API_URL")
 
 if not API_TOKEN:
-    raise ValueError("API_TOKEN environment variable is not set")
+    raise ValueError("API_TOKEN is not set in Streamlit secrets")
 
 PROMPT = """Tu es un assistant de rédaction pour un journal local français.
 
@@ -36,39 +34,44 @@ Titre : [titre généré]
 Chapeau : [chapeau généré]
 """
 
-def generate_title_and_blurb(paragraph):
-    # Prepare the prompt dictionary
-    prompt_dict = {
+def generate_title_and_blurb(paragraph: str) -> dict:
+    payload = {
         "model": "gpt-4",
         "messages": [
             {"role": "system", "content": PROMPT},
             {"role": "user", "content": paragraph.strip()}
         ],
         "temperature": 0.5,
-        "max_tokens": 100
+        "max_tokens": 150
     }
 
-    # Convert prompt dictionary to string
-    prompt_str = str(prompt_dict)
-
-    # Prepare request headers
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
         "Content-Type": "application/json"
     }
 
-    # Send request to /chat endpoint
-    response = requests.post(
-        API_URL,
-        headers=headers,
-        json={"prompt": prompt_str}
-    )
+    response = requests.post(API_URL, headers=headers, json=payload)
 
     if response.status_code != 200:
         raise Exception(f"API request failed with status code {response.status_code}")
 
     response_data = response.json()
-    if response_data["status"] != "success":
-        raise Exception(f"API request failed: {response_data.get('error', 'Unknown error')}")
 
-    return response_data["reply"].strip()
+    try:
+        content = response_data["choices"][0]["message"]["content"]
+    except (KeyError, IndexError):
+        raise Exception("Unexpected API response format")
+
+    # Parse title and chapeau
+    title = ""
+    chapo = ""
+    for line in content.splitlines():
+        if line.lower().startswith("titre :"):
+            title = line.split(":", 1)[1].strip()
+        elif line.lower().startswith("chapeau :"):
+            chapo = line.split(":", 1)[1].strip()
+
+    return {
+        "title": title or "Titre non défini",
+        "chapo": chapo or "Chapeau non défini"
+    }
