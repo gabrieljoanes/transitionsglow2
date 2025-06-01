@@ -93,3 +93,6 @@ def get_transition_from_gpt(para_a, para_b, examples, model="gpt-4"):
         raise Exception(f"API request failed: {response_data.get('error', 'Unknown error')}")
 
     return response_data["reply"].strip()
+
+print("✅ This is the correct version of get_transition_from_gpt()")
+
