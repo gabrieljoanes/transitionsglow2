@@ -4,7 +4,6 @@ from utils.io import load_examples, load_all_transitions
 from utils.processing import get_transition_from_gpt
 import inspect
 import utils.processing
-st.write("📦 Loaded processing.py from:", inspect.getfile(utils.processing))
 from utils.layout import rebuild_article_with_transitions
 from utils.display import layout_title_and_input, show_output, show_version
 from utils.version import compute_version_hash
@@ -83,7 +82,6 @@ def main():
 
                 generated_transitions = []
                 for i, (para_a, para_b) in enumerate(pairs, 1):
-                    st.write("🧪 Confirming file:", __file__)
                     transition = get_transition_from_gpt(para_a, para_b, examples)
                     generated_transitions.append(transition)
                     logger.info(f"Generated transition {i}/{len(pairs)}")
