@@ -1,14 +1,11 @@
-# utils/title_blurb.py
-
 import requests
 import streamlit as st
 
-# Load API credentials from Streamlit secrets
 API_TOKEN = st.secrets.get("API_TOKEN")
 API_URL = st.secrets.get("API_URL")
 
 if not API_TOKEN:
-    raise ValueError("API_TOKEN is not set in Streamlit secrets")
+    raise ValueError("API_TOKEN secret is not set")
 
 PROMPT = """Tu es un assistant de rédaction pour un journal local français.
 
@@ -34,44 +31,39 @@ Titre : [titre généré]
 Chapeau : [chapeau généré]
 """
 
-def generate_title_and_blurb(paragraph: str) -> dict:
-    payload = {
-        "model": "gpt-4",
-        "messages": [
-            {"role": "system", "content": PROMPT},
-            {"role": "user", "content": paragraph.strip()}
-        ],
-        "temperature": 0.5,
-        "max_tokens": 150
-    }
+def generate_title_and_blurb(paragraph):
+    # Construct full prompt
+    full_prompt = f"{PROMPT}\n\n{paragraph.strip()}"
+
+    # Log prompt for debugging
+    st.write("🧪 Prompt sent to API:")
+    st.code(full_prompt, language="markdown")
 
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
         "Content-Type": "application/json"
     }
 
-    response = requests.post(API_URL, headers=headers, json=payload)
+    payload = {
+        "prompt": full_prompt
+    }
+
+    try:
+        response = requests.post(API_URL, headers=headers, json=payload)
+    except Exception as e:
+        st.error("🚨 Erreur lors de l'appel à l'API")
+        st.code(str(e))
+        raise
+
+    # Log raw response for debugging
+    st.write("🧪 Raw API response:")
+    st.code(response.text)
 
     if response.status_code != 200:
         raise Exception(f"API request failed with status code {response.status_code}")
 
     response_data = response.json()
+    if response_data.get("status") != "success":
+        raise Exception(f"API error: {response_data.get('error', 'Unknown error')}")
 
-    try:
-        content = response_data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError):
-        raise Exception("Unexpected API response format")
-
-    # Parse title and chapeau
-    title = ""
-    chapo = ""
-    for line in content.splitlines():
-        if line.lower().startswith("titre :"):
-            title = line.split(":", 1)[1].strip()
-        elif line.lower().startswith("chapeau :"):
-            chapo = line.split(":", 1)[1].strip()
-
-    return {
-        "title": title or "Titre non défini",
-        "chapo": chapo or "Chapeau non défini"
-    }
+    return response_data["reply"].strip()
