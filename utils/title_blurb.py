@@ -1,3 +1,5 @@
+# utils/title_blurb.py
+
 import requests
 import streamlit as st
 
@@ -5,7 +7,7 @@ API_TOKEN = st.secrets.get("API_TOKEN")
 API_URL = st.secrets.get("API_URL")
 
 if not API_TOKEN:
-    raise ValueError("API_TOKEN secret is not set")
+    raise ValueError("API_TOKEN is not set in Streamlit secrets")
 
 PROMPT = """Tu es un assistant de rédaction pour un journal local français.
 
@@ -31,31 +33,31 @@ Titre : [titre généré]
 Chapeau : [chapeau généré]
 """
 
-def generate_title_and_blurb(paragraph):
-    # Construct full prompt
-    full_prompt = f"{PROMPT}\n\n{paragraph.strip()}"
+def generate_title_and_blurb(paragraph: str):
+    messages = [
+        {"role": "system", "content": PROMPT},
+        {"role": "user", "content": paragraph.strip()}
+    ]
 
-    # Log prompt for debugging
-    st.write("🧪 Prompt sent to API:")
-    st.code(full_prompt, language="markdown")
+    payload = {
+        "model": "gpt-4",
+        "messages": messages,
+        "temperature": 0.5,
+        "max_tokens": 150
+    }
 
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
         "Content-Type": "application/json"
     }
 
-    payload = {
-        "prompt": full_prompt
-    }
+    # 🔍 Debug log
+    st.write("🧪 Prompt sent to API:")
+    st.code(PROMPT + "\n\n" + paragraph.strip())
 
-    try:
-        response = requests.post(API_URL, headers=headers, json=payload)
-    except Exception as e:
-        st.error("🚨 Erreur lors de l'appel à l'API")
-        st.code(str(e))
-        raise
+    response = requests.post(API_URL, headers=headers, json=payload)
 
-    # Log raw response for debugging
+    # 🔍 Debug log
     st.write("🧪 Raw API response:")
     st.code(response.text)
 
@@ -63,7 +65,8 @@ def generate_title_and_blurb(paragraph):
         raise Exception(f"API request failed with status code {response.status_code}")
 
     response_data = response.json()
+
     if response_data.get("status") != "success":
-        raise Exception(f"API error: {response_data.get('error', 'Unknown error')}")
+        raise Exception(f"API request failed: {response_data.get('error', 'Unknown error')}")
 
     return response_data["reply"].strip()
