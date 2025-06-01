@@ -1,9 +1,9 @@
 import streamlit as st
 import traceback
-from utils.io import load_examples, load_all_transitions
+from datetime import datetime
+
+from utils.io import load_examples
 from utils.processing import get_transition_from_gpt
-import inspect
-import utils.processing
 from utils.layout import rebuild_article_with_transitions
 from utils.display import layout_title_and_input, show_output, show_version
 from utils.version import compute_version_hash
@@ -11,9 +11,6 @@ from utils.title_blurb import generate_title_and_blurb
 from utils.logger import save_output_to_file, logger
 from utils.validate_prompt_compliance import validate_batch, display_validation_results
 from utils.google_drive import get_google_drive_service, list_folder_contents, process_drive_files
-from datetime import datetime
-import pandas as pd
-import io
 
 def process_uploaded_files(uploaded_files):
     results = []
@@ -77,9 +74,17 @@ def main():
                 pairs = list(zip(parts[:-1], parts[1:]))
                 logger.info(f"Processing {len(pairs)} paragraph pairs")
 
-                title, chapo = generate_title_and_blurb(parts[0])
+                # Safely extract title and chapo from dict
+                title_blurb = generate_title_and_blurb(parts[0])
+                if isinstance(title_blurb, dict):
+                    title = title_blurb.get("title", "Titre non défini")
+                    chapo = title_blurb.get("chapo", "Chapeau non défini")
+                else:
+                    title = "Titre non défini"
+                    chapo = "Chapeau non défini"
+
                 logger.info("Generated title and blurb")
-                
+
                 generated_transitions = []
                 for i, (para_a, para_b) in enumerate(pairs, 1):
                     transition = get_transition_from_gpt(para_a, para_b, examples)
@@ -92,15 +97,13 @@ def main():
                     st.error(error)
                     return
 
-                st.session_state['title_text'] = title or 'Titre non défini'
-                st.session_state['chapo_text'] = chapo or 'Chapeau non défini'
-
-                st.write("🔍 Titre:", st.session_state['title_text'])
-                st.write("🔍 Chapo:", st.session_state['chapo_text'])
-
-
+                st.session_state['title_text'] = title
+                st.session_state['chapo_text'] = chapo
                 st.session_state['rebuilt_text'] = rebuilt_text
                 st.session_state['generated_transitions'] = generated_transitions
+
+                st.write("🔍 Titre:", title)
+                st.write("🔍 Chapo:", chapo)
 
             except Exception:
                 st.error("🚨 Une erreur est survenue lors de la génération.")
@@ -133,25 +136,23 @@ def main():
             )
             if filepath:
                 st.success(f"✅ L'article a été sauvegardé dans `{filepath}` et uploadé sur GoogleDrive")
-                logger.info(f"Successfully saved and uploaded article to {filepath}")
+                logger.info(f"Saved and uploaded article to {filepath}")
                 st.markdown("### 📁 Accès aux fichiers")
                 st.markdown(f"""
-                Vous pouvez accéder à tous les fichiers générés dans le dossier Google Drive :
-                - [Ouvrir le dossier Google Drive](https://drive.google.com/drive/folders/{st.secrets.get("gdrive_folder_id")})
+                [Ouvrir le dossier Google Drive](https://drive.google.com/drive/folders/{st.secrets.get("gdrive_folder_id")})
                 """)
             else:
-                st.warning("⚠️ L'article a été sauvegardé localement mais l'upload sur GoogleDrive a échoué")
+                st.warning("⚠️ L'article a été sauvegardé localement mais l'upload a échoué")
                 logger.warning("Article saved locally but GoogleDrive upload failed")
 
     with tab5:
         st.markdown("### 📄 Upload par lot depuis Google Drive")
         st.markdown("""
-        Vous pouvez sélectionner des fichiers texte depuis Google Drive pour valider les transitions.
-        Les fichiers doivent être formatés comme suit:
+        Les fichiers doivent contenir une liste de transitions, comme suit :
         ```
-        transition1
-        transition2
-        transition3
+        1. Transition exemple
+        2. Transition exemple
+        3. Transition exemple
         ```
         """)
         try:
@@ -178,15 +179,15 @@ def main():
                     else:
                         st.warning("⚠️ Aucune transition n'a pu être extraite des fichiers sélectionnés.")
             else:
-                st.warning("⚠️ Aucun fichier texte trouvé dans le dossier Google Drive.")
+                st.warning("⚠️ Aucun fichier trouvé dans le dossier.")
         except Exception:
-            st.error("🚨 Une erreur est survenue lors de l'accès à Google Drive.")
+            st.error("🚨 Erreur d'accès à Google Drive.")
             st.code(traceback.format_exc(), language="python")
             logger.error(traceback.format_exc())
 
         st.markdown(f"""
-        ### 📁 Accès au dossier Google Drive
-        [Ouvrir le dossier Google Drive](https://drive.google.com/drive/folders/{st.secrets.get("gdrive_folder_id")})
+        ### 📁 Dossier Google Drive
+        [Ouvrir le dossier](https://drive.google.com/drive/folders/{st.secrets.get("gdrive_folder_id")})
         """)
 
     show_version(VERSION)
