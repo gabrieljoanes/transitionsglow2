@@ -77,9 +77,9 @@ def main():
                 pairs = list(zip(parts[:-1], parts[1:]))
                 logger.info(f"Processing {len(pairs)} paragraph pairs")
 
-                title_blurb = generate_title_and_blurb(parts[0])
+                title, chapo = generate_title_and_blurb(parts[0])
                 logger.info("Generated title and blurb")
-
+                
                 generated_transitions = []
                 for i, (para_a, para_b) in enumerate(pairs, 1):
                     transition = get_transition_from_gpt(para_a, para_b, examples)
@@ -92,12 +92,12 @@ def main():
                     st.error(error)
                     return
 
-                if isinstance(title_blurb, dict):
-                    st.session_state['title_text'] = title_blurb.get('title', 'Titre non défini')
-                    st.session_state['chapo_text'] = title_blurb.get('chapo', 'Chapeau non défini')
-                else:
-                    st.session_state['title_text'] = 'Titre non défini'
-                    st.session_state['chapo_text'] = 'Chapeau non défini'
+                st.session_state['title_text'] = title or 'Titre non défini'
+                st.session_state['chapo_text'] = chapo or 'Chapeau non défini'
+
+                st.write("🔍 Titre:", st.session_state['title_text'])
+                st.write("🔍 Chapo:", st.session_state['chapo_text'])
+
 
                 st.session_state['rebuilt_text'] = rebuilt_text
                 st.session_state['generated_transitions'] = generated_transitions
