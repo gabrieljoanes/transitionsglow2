@@ -80,6 +80,7 @@ def main():
 
                 generated_transitions = []
                 for i, (para_a, para_b) in enumerate(pairs, 1):
+                    st.write("🧪 Confirming file:", __file__)
                     transition = get_transition_from_gpt(para_a, para_b, examples)
                     generated_transitions.append(transition)
                     logger.info(f"Generated transition {i}/{len(pairs)}")
