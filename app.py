@@ -84,7 +84,8 @@ def main():
                     #chapo = "Chapeau non défini"
 
                 #logger.info("Generated title and blurb")
-
+                title = "Titre désactivé"
+                chapo = "Chapeau désactivé"
                 generated_transitions = []
                 for i, (para_a, para_b) in enumerate(pairs, 1):
                     transition = get_transition_from_gpt(para_a, para_b, examples)
