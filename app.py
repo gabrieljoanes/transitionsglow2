@@ -75,15 +75,15 @@ def main():
                 logger.info(f"Processing {len(pairs)} paragraph pairs")
 
                 # Safely extract title and chapo from dict
-                title_blurb = generate_title_and_blurb(parts[0])
-                if isinstance(title_blurb, dict):
-                    title = title_blurb.get("title", "Titre non défini")
-                    chapo = title_blurb.get("chapo", "Chapeau non défini")
-                else:
-                    title = "Titre non défini"
-                    chapo = "Chapeau non défini"
+                #title_blurb = generate_title_and_blurb(parts[0])
+                #if isinstance(title_blurb, dict):
+                    #title = title_blurb.get("title", "Titre non défini")
+                    #chapo = title_blurb.get("chapo", "Chapeau non défini")
+                #else:
+                    #title = "Titre non défini"
+                    #chapo = "Chapeau non défini"
 
-                logger.info("Generated title and blurb")
+                #logger.info("Generated title and blurb")
 
                 generated_transitions = []
                 for i, (para_a, para_b) in enumerate(pairs, 1):
