@@ -66,9 +66,15 @@ def get_transition_from_gpt(para_a, para_b, examples, model="gpt-4"):
         "temperature": 0.5,
         "max_tokens": 20
     }
+    # 🧪 Debug: show payload
+    st.write("🧪 Prompt payload sent to proxy:")
+    st.json(payload)
 
     response = requests.post(API_URL, headers=headers, json={"prompt": str(payload)})
-
+    # 🧪 Debug: show response
+    data = response.json()
+    st.write("🧪 Raw response from proxy:")
+    st.json(data)
     if response.status_code != 200:
         raise Exception(f"API request failed with status code {response.status_code}")
 
