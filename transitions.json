@@ -13,21 +13,5 @@
     "paragraph_a": "Un nouveau complexe sportif, portant le nom du président d'honneur du RC Lens, est en cours de construction à Houdain. Le projet comprend deux terrains de football, des vestiaires, un club house et un système d'éclairage nocturne.",
     "transition": "Enfin, nous apprenons que",
     "paragraph_b": "Un violent incendie a éclaté dans l’entreprise Artois Métaux à Saint-Laurent-Blangy, détruisant environ 100 tonnes de métaux. Les pompiers ont déployé d'importants moyens pour maîtriser le feu et éviter sa propagation. Aucune victime n'est à déplorer et une enquête est en cours."
-  },
-  {
-    "paragraph_a": "Les élèves de l'école Olhette à Urrugne profitent de classes en plein air chaque lundi, ce qui favorise leur développement et leur intérêt pour les sciences naturelles.",
-    "transition": "Dans un autre registre,",
-    "paragraph_b": "Le circuit Bellevue de Villefranque accueillera le classique de printemps du championnat Corac les 10 et 11 mai, avec plus d'une centaine de coureurs dans différentes catégories."
-  },
-  {
-    "paragraph_a": "Le circuit Bellevue de Villefranque accueillera le classique de printemps du championnat Corac les 10 et 11 mai, organisé par l'association Autocross Villefranque.",
-    "transition": "Dans l'actualité sportive, sachez que",
-    "paragraph_b": "Le Groupe philatélique béarnais (GPB) présente une exposition de timbres à la villa Violette, à Billère, pour la Fête de l'Europe, illustrant l'histoire des trois villes jumelées."
-  },
-  {
-    "paragraph_a": "Le Groupe philatélique béarnais (GPB) présente une exposition de timbres à la villa Violette, à Billère, pour la Fête de l'Europe, prévoyant son centenaire en 2026 avec des événements spéciaux.",
-    "transition": "Enfin, nous apprenons que",
-    "paragraph_b": "L'édition 2025 de la grande fête des ikastolas, Herri Urrats, se déroulera le 11 mai, avec des milliers de personnes attendues pour célébrer cet événement culturel, qui vise à financer les travaux du collège Kattalin-Elizalde et à soutenir l'ikastola de Saint-Martin-d’Arberoue."
   }
-  // ... continue appending all remaining entries in the same format ...
 ]
