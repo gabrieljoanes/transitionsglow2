@@ -1,17 +1,507 @@
 [
   {
-    "paragraph_a": "Une femme de 22 ans s'est immolée par le feu à Nœux-les-Mines et a été transportée en urgence à l'hôpital de Lille. Une enquête est en cours pour déterminer les raisons de cet acte.",
+    "paragraph_a": "Une femme de 22 ans s'est immolée par le feu à Nœux-les-Mines, elle a été transportée en urgence vitale au CHR de Lille. Une enquête est en cours pour comprendre les raisons de cet acte.",
     "transition": "Dans un tout autre registre,",
-    "paragraph_b": "Le palais des congrès du Touquet-Paris-Plage accueillera une vente aux enchères de collections de mode, y compris des sacs de luxe et des vêtements de marques prestigieuses."
+    "paragraph_b": "Le palais des congrès du Touquet-Paris-Plage accueillera une vente aux enchères de collections de mode, incluant des sacs de luxe rares et des pièces de mode de marques prestigieuses. Une vente d'accessoires, de foulards et de vêtements de grandes marques à des prix raisonnables sera aussi organisée."
   },
   {
-    "paragraph_a": "Le palais des congrès du Touquet-Paris-Plage accueillera une vente aux enchères de collections de mode, y compris des sacs de luxe et des vêtements de marques prestigieuses.",
+    "paragraph_a": "Le palais des congrès du Touquet-Paris-Plage accueillera une vente aux enchères de collections de mode, incluant des sacs de luxe rares et des pièces de mode de marques prestigieuses. Une vente d'accessoires, de foulards et de vêtements de grandes marques à des prix raisonnables sera aussi organisée.",
     "transition": "Dans l'actualité sportive, sachez que",
-    "paragraph_b": "Un nouveau complexe sportif, portant le nom du président d'honneur du RC Lens, est en cours de construction à Houdain. Le projet comprend deux terrains de football, des vestiaires, un club house et un système d'éclairage nocturne."
+    "paragraph_b": "Un nouveau complexe sportif portant le nom du président d'honneur du RC Lens, Gervais Martel, est en cours de construction à Houdain. Ce projet de près de 3 millions d'euros comprendra deux terrains de football, des vestiaires, un club house et un système d'éclairage nocturne. Les travaux ont débuté en présence de Gervais Martel en personne et marquent le début de l'aménagement du quartier de La Plaine, avec la réhabilitation de logements et des projets immobiliers à proximité."
   },
   {
-    "paragraph_a": "Un nouveau complexe sportif, portant le nom du président d'honneur du RC Lens, est en cours de construction à Houdain. Le projet comprend deux terrains de football, des vestiaires, un club house et un système d'éclairage nocturne.",
+    "paragraph_a": "Un nouveau complexe sportif portant le nom du président d'honneur du RC Lens, Gervais Martel, est en cours de construction à Houdain. Ce projet de près de 3 millions d'euros comprendra deux terrains de football, des vestiaires, un club house et un système d'éclairage nocturne. Les travaux ont débuté en présence de Gervais Martel en personne et marquent le début de l'aménagement du quartier de La Plaine, avec la réhabilitation de logements et des projets immobiliers à proximité.",
     "transition": "Enfin, nous apprenons que",
-    "paragraph_b": "Un violent incendie a éclaté dans l’entreprise Artois Métaux à Saint-Laurent-Blangy, détruisant environ 100 tonnes de métaux. Les pompiers ont déployé d'importants moyens pour maîtriser le feu et éviter sa propagation. Aucune victime n'est à déplorer et une enquête est en cours."
+    "paragraph_b": "Un violent incendie s’est déclaré dans l’entreprise Artois Métaux à Saint-Laurent-Blangy, ravageant environ 100 t de métaux, principalement des carcasses de voitures compactées. Les pompiers ont dû déployer d’importants moyens pour maîtriser le sinistre et éviter sa propagation à d’autres zones du site. Aucune victime n’est à déplorer. Une enquête est en cours pour déterminer l’origine du feu."
+  },
+  {
+    "paragraph_a": "Les élèves de l'école Olhette à Urrugne profitent chaque lundi de classes en plein air, ce qui favorise leur développement et leur intérêt pour les sciences naturelles.",
+    "transition": "Dans un autre registre,",
+    "paragraph_b": "Le circuit Bellevue de Villefranque accueillera le classique de printemps du championnat Corac les 10 et 11 mai, avec plus d'une centaine de coureurs participant à des courses et des activités tout le week-end."
+  },
+  {
+    "paragraph_a": "Le circuit Bellevue de Villefranque accueillera le classique de printemps du championnat Corac les 10 et 11 mai, avec plus d'une centaine de coureurs participant à des courses et des activités tout le week-end.",
+    "transition": "Si vous préférez des activités plus calmes, sachez que",
+    "paragraph_b": "Le Groupe philatélique béarnais présente une exposition de timbres à la villa Violette, à Billère, pour la Fête de l'Europe, en préparation de son centenaire en 2026."
+  },
+  {
+    "paragraph_a": "Le Groupe philatélique béarnais présente une exposition de timbres à la villa Violette, à Billère, pour la Fête de l'Europe, en préparation de son centenaire en 2026.",
+    "transition": "Enfin, signalons que",
+    "paragraph_b": "La grande fête des ikastolas, Herri Urrats, se déroulera ce dimanche 11 mai, avec des milliers de personnes attendues pour célébrer cet événement culturel, financer les travaux du collège Kattalin-Elizalde et soutenir l'ikastola de Saint-Martin-d’Arberoue."
+  },
+  {
+    "paragraph_a": "Raphael Munoz, un héliciculteur de Pollestres, élève chaque mois une tonne d'escargots et perpétue la tradition estivale de la cargolade. Malgré un travail exigeant, il veille à la préservation de l'espèce et fournit des escargots de qualité à ses clients.",
+    "transition": "Dans un autre registre,",
+    "paragraph_b": "Un problème d'alimentation en eau potable menace la tranquillité des habitants d'Oreilla, un village de seulement 26 habitants. Le projet de construction d'une usine hydroélectrique pour résoudre le problème est bloqué depuis douze ans."
+  },
+  {
+    "paragraph_a": "Un problème d'alimentation en eau potable menace la tranquillité des habitants d'Oreilla, un village de seulement 26 habitants. Le projet de construction d'une usine hydroélectrique pour résoudre le problème est bloqué depuis douze ans.",
+    "transition": "Pour finir, signalons que",
+    "paragraph_b": "Les Pyrénées-Orientales connaissent une météo instable avec des pluies et des orages prévus sur le Pays catalan. Les températures resteront fraîches, en dessous de 20 °C à Perpignan, et le mauvais temps continuera les jours prochains."
+  },
+  {
+    "paragraph_a": "Un accident mortel a eu lieu près de Strasbourg, où un train a percuté une personne sur la voie. Aucun passager ou membre du personnel n'a été blessé, et les passagers ont été transportés par bus jusqu'à leur destination.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Joseph Eckart continue de maintenir l'héritage du chapeau à Sarre-Union. La ville, autrefois florissante grâce à l'exportation de chapeaux de paille, a maintenant une seule chapellerie qui vend principalement des chapeaux pour des événements. Il y a un intérêt pour l'ouverture d'un musée pour préserver ce patrimoine historique."
+  },
+  {
+    "paragraph_a": "Joseph Eckart continue de maintenir l'héritage du chapeau à Sarre-Union. La ville, autrefois florissante grâce à l'exportation de chapeaux de paille, a maintenant une seule chapellerie qui vend principalement des chapeaux pour des événements. Il y a un intérêt pour l'ouverture d'un musée pour préserver ce patrimoine historique.",
+    "transition": "Dans l'actualité également,",
+    "paragraph_b": "Un incendie a éclaté dans une maison à Dieffenbach-au-Val, près de Sélestat. Une femme a été blessée et emmenée à l'hôpital. Les pompiers ont travaillé jusqu'à 4 heures du matin pour prévenir toute reprise du feu."
+  },
+  {
+    "paragraph_a": "Un incendie a éclaté dans une maison à Dieffenbach-au-Val, près de Sélestat. Une femme a été blessée et emmenée à l'hôpital. Les pompiers ont travaillé jusqu'à 4 heures du matin pour prévenir toute reprise du feu.",
+    "transition": "Enfin, sachez que",
+    "paragraph_b": "La Fête de l'Europe se déroule à Strasbourg jusqu'à la fin du mois, avec une variété d'animations gratuites. L'événement met en valeur la diversité et les enjeux européens et propose un programme pour tous les publics. Parmi les points forts, une grande kermesse européenne aura lieu le 9 mai."
+  },
+  {
+    "paragraph_a": "Rouen accueillera les Fêtes Jeanne d'Arc du 29 au 31 mai, avec un concours de costumes lors du défilé le 31. Pour sa quatrième édition, l'événement aura lieu dans le centre et à Saint-Sever. Le programme inclut des spectacles de rue, un bal et des chants médiévaux, des spectacles lumineux et pyrotechniques, ainsi que des marchés artisanaux. Le concours de costumes organisé le 31 mai comportera quatre catégories et sera suivi d'un défilé à 17 h. Nassera Kermiche et Roseline Hamel, qui ont écrit sur leur amitié post-attentat de Saint-Étienne-du-Rouvray, sont les marraines de cette édition.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "nous vous informons d'autre part que deux nouvelles plaintes pour des escroqueries par téléphone ont été enregistrées lundi 5 mai au commissariat de Dieppe, qui a déjà reçu quatre autres victimes de la région en avril. Les modes opératoires varient, mais ont entraîné des pertes financières importantes pour chacune des personnes. Une jeune femme de 19 ans a été convaincue de transférer 2 500 € sur un compte temporaire après avoir cliqué sur un lien reçu par SMS, tandis qu'une femme de 75 ans a été dupée par un message frauduleux de sa prétendue fille lui réclamant 1 800 €."
+  },
+  {
+    "paragraph_a": "nous vous informons d'autre part que deux nouvelles plaintes pour des escroqueries par téléphone ont été enregistrées lundi 5 mai au commissariat de Dieppe, qui a déjà reçu quatre autres victimes de la région en avril. Les modes opératoires varient, mais ont entraîné des pertes financières importantes pour chacune des personnes. Une jeune femme de 19 ans a été convaincue de transférer 2 500 € sur un compte temporaire après avoir cliqué sur un lien reçu par SMS, tandis qu'une femme de 75 ans a été dupée par un message frauduleux de sa prétendue fille lui réclamant 1 800 €.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "la Boutique test d'Elbeuf-sur-Seine accueille une nouvelle artiste, Anne-Marie de Smet, pour une exposition de six mois. Elle crée des objets personnalisés à partir de photographies qu'elle transfère sur divers supports et, en collaboration avec une céramiste, propose des carillons en pièces uniques. L'inauguration de la boutique aura lieu le samedi 10 mai."
+  },
+  {
+    "paragraph_a": "la Boutique test d'Elbeuf-sur-Seine accueille une nouvelle artiste, Anne-Marie de Smet, pour une exposition de six mois. Elle crée des objets personnalisés à partir de photographies qu'elle transfère sur divers supports et, en collaboration avec une céramiste, propose des carillons en pièces uniques. L'inauguration de la boutique aura lieu le samedi 10 mai.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "la friperie solidaire Phoenix la frip' va rouvrir prochainement à la suite de son succès dans la Boutique test."
+  },
+  {
+    "paragraph_a": "Un projet de maison des jeunes à Longperrier va enfin se concrétiser, offrant diverses activités et une aide aux devoirs pour les jeunes de 11 à 17 ans. L'adjoint à la sécurité et à la jeunesse a également pris des mesures pour réguler l'utilisation du protoxyde d'azote par les jeunes.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Les travaux d'aménagement de la place du Marché à Dammartin-en-Goële sont en cours et devraient être achevés en juillet. La place accueillera un marché hebdomadaire, des commerces de proximité et des espaces de jeux pour les enfants."
+  },
+  {
+    "paragraph_a": "Les travaux d'aménagement de la place du Marché à Dammartin-en-Goële sont en cours et devraient être achevés en juillet. La place accueillera un marché hebdomadaire, des commerces de proximité et des espaces de jeux pour les enfants.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "L'équipe de football de Dammartin-en-Goële a remporté la coupe départementale, couronnant une saison exceptionnelle. Une réception a été organisée en leur honneur par la mairie et les habitants de la commune."
+  },
+  {
+    "paragraph_a": "L'équipe de football de Dammartin-en-Goële a remporté la coupe départementale, couronnant une saison exceptionnelle. Une réception a été organisée en leur honneur par la mairie et les habitants de la commune.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "La commune de Longperrier va se doter d'une nouvelle caserne de pompiers pour améliorer les conditions de travail des sapeurs-pompiers et réduire les délais d'intervention. Les travaux débuteront en septembre pour une livraison prévue en 2023."
+  },
+  {
+    "paragraph_a": "Un adolescent a été arrêté pour avoir volé des produits cosmétiques dans un Carrefour. Il a avoué vouloir revendre les articles volés et sera convoqué par le juge des enfants. Cet incident fait écho à d'autres vols similaires dans le même centre commercial.",
+    "transition": "À présent, dans la commune de Lizy-sur-Ourcq, il est à signaler que",
+    "paragraph_b": "Deux arrêtés interdisent la consommation d'alcool sur les lieux publics de 11 h à 4 h et les rassemblements de plus de quatre personnes entre 19 h et 3 h dans la commune de Lizy-sur-Ourcq. Ces règles visent à réduire les regroupements fréquents dans certains secteurs de la commune, mais certains résidents demandent un renforcement des mesures."
+  },
+  {
+    "paragraph_a": "Deux arrêtés interdisent la consommation d'alcool sur les lieux publics de 11 h à 4 h et les rassemblements de plus de quatre personnes entre 19 h et 3 h dans la commune de Lizy-sur-Ourcq. Ces règles visent à réduire les regroupements fréquents dans certains secteurs de la commune, mais certains résidents demandent un renforcement des mesures.",
+    "transition": "D'autre part, dans un tout autre domaine, à Ville-Saint-Jacques,",
+    "paragraph_b": "Des adolescents se préparent à prendre le relais des porte-drapeaux lors des cérémonies officielles à Ville-Saint-Jacques. Cette initiative, motivée par le devoir de mémoire et le respect des anciens, attire de plus en plus de jeunes, conduisant à une pénurie de drapeaux dans le village."
+  },
+  {
+    "paragraph_a": "Des adolescents se préparent à prendre le relais des porte-drapeaux lors des cérémonies officielles à Ville-Saint-Jacques. Cette initiative, motivée par le devoir de mémoire et le respect des anciens, attire de plus en plus de jeunes, conduisant à une pénurie de drapeaux dans le village.",
+    "transition": "Et pour terminer, il est à noter qu'à Jouy-sur-Morin,",
+    "paragraph_b": "La commune de Jouy-sur-Morin se prépare à célébrer le 8 Mai, jour de commémoration de la fin de la Seconde Guerre mondiale. Un programme varié est prévu, incluant l'inauguration d'une plaque commémorative, des expositions, des danses et un repas d'époque. Un hommage particulier sera rendu à Gilbert Chevance, résistant local, avec un concert de jazz prévu au stade qui porte son nom."
+  },
+  {
+    "paragraph_a": "Des travaux de consolidation sont en cours sur un remblai à Perdreauville pour prévenir les glissements de terrain et sécuriser un ouvrage essentiel de la ligne de train Paris-Cherbourg.",
+    "transition": "Dans l'actualité également,",
+    "paragraph_b": "Le 18 mai, l'aérodrome des Mureaux-Verneuil accueillera la Fête de l'air et de l'espace avec diverses activités et démonstrations, malgré l'absence de la Patrouille de France."
+  },
+  {
+    "paragraph_a": "Le 18 mai, l'aérodrome des Mureaux-Verneuil accueillera la Fête de l'air et de l'espace avec diverses activités et démonstrations, malgré l'absence de la Patrouille de France.",
+    "transition": "Dans la rubrique sportive,",
+    "paragraph_b": "Le Paris Saint-Germain envisage de construire son nouveau stade à Poissy, avec une décision attendue dans les prochaines semaines. Poissy est une option attrayante pour le club en raison de sa proximité avec le Campus PSG et de terrains disponibles appartenant à Stellantis."
+  },
+  {
+    "paragraph_a": "Le Paris Saint-Germain envisage de construire son nouveau stade à Poissy, avec une décision attendue dans les prochaines semaines. Poissy est une option attrayante pour le club en raison de sa proximité avec le Campus PSG et de terrains disponibles appartenant à Stellantis.",
+    "transition": "Enfin,",
+    "paragraph_b": "Le domaine de Dampierre-en-Yvelines entre dans une nouvelle ère avec des projets ambitieux pour en faire un lieu culturel majeur en Île-de-France. Les travaux de restauration avancent rapidement, avec pour objectif d'accueillir davantage de visiteurs tout en préservant le patrimoine du domaine et en intégrant les acteurs locaux."
+  },
+  {
+    "paragraph_a": "La discothèque Le Gibus à Frettemeule va fermer définitivement après une soirée finale le 10 mai 2025, ce qui suscite de la nostalgie chez les habitués. Les causes de la fermeture et l'avenir du lieu restent inconnus.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "L'été à Cayeux-sur-Mer promet d'être dynamique avec divers événements comme le Festival des cerfs-volants, l'Open de France de paddle, le Salon des migrateurs, des Rencontres musicales, le festival Baie Sonore, l'élection de Miss Cayeux-sur-Mer, et les fêtes de la Gare et des Fleurs. Les résidents et les touristes pourront apprécier concerts, défilés, spectacles et animations variées tout l'été."
+  },
+  {
+    "paragraph_a": "L'été à Cayeux-sur-Mer promet d'être dynamique avec divers événements comme le Festival des cerfs-volants, l'Open de France de paddle, le Salon des migrateurs, des Rencontres musicales, le festival Baie Sonore, l'élection de Miss Cayeux-sur-Mer, et les fêtes de la Gare et des Fleurs. Les résidents et les touristes pourront apprécier concerts, défilés, spectacles et animations variées tout l'été.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Il n'y a pas de texte après cette transition. Il semble y avoir une erreur dans le texte original."
+  },
+  {
+    "paragraph_a": "L'été à Cayeux-sur-Mer promet d'être dynamique avec divers événements comme le Festival des cerfs-volants, l'Open de France de paddle, le Salon des migrateurs, des Rencontres musicales, le festival Baie Sonore, l'élection de Miss Cayeux-sur-Mer, et les fêtes de la Gare et des Fleurs. Les résidents et les touristes pourront apprécier concerts, défilés, spectacles et animations variées tout l'été.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Une initiative de sensibilisation a eu lieu dans la baie de Somme, orchestrée par l'Office français de la biodiversité, le Parc naturel marin et la gendarmerie, pour surveiller la surfréquentation des espaces touristiques naturels lors des longs week-ends de mai. Neuf agents ont sensibilisé 93 visiteurs pour équilibrer la fréquentation avec la préservation de la biodiversité, incluant les espèces vulnérables telles que les phoques et les gravelots."
+  },
+  {
+    "paragraph_a": "La police a découvert du cannabis dans un véhicule lors d'un contrôle routier à La Seyne-sur-Mer, ce qui a entraîné l'arrestation du conducteur de 23 ans. Une perquisition ultérieure de son domicile a révélé plus de drogues, des armes et des irrégularités concernant ses véhicules. Le suspect a admis son implication dans le trafic de drogue et la possession d'armes.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "L'événement 'Faites de la brouette' a eu lieu à Barjols, où les membres de Vide à remplir (VAR) ont invité les participants à des épreuves physiques amusantes. Neuf équipes ont rivalisé d'originalité en personnalisant leurs brouettes pour gagner des points lors de différentes épreuves. L'événement vise à renforcer les liens intergénérationnels à Barjols par le biais d'activités culturelles."
+  },
+  {
+    "paragraph_a": "L'événement 'Faites de la brouette' a eu lieu à Barjols, où les membres de Vide à remplir (VAR) ont invité les participants à des épreuves physiques amusantes. Neuf équipes ont rivalisé d'originalité en personnalisant leurs brouettes pour gagner des points lors de différentes épreuves. L'événement vise à renforcer les liens intergénérationnels à Barjols par le biais d'activités culturelles.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "La commune du Thoronet et le Centre des monuments nationaux ont conclu un partenariat pour mettre en valeur l'abbaye du Thoronet avec la participation des habitants. Des billets gratuits seront offerts aux résidents pour renforcer le lien entre le site et la population locale. La collaboration comprend l'organisation d'événements annuels par la commune à l'abbaye et des prêts de matériel au CMN. La commune contribuera également au financement des Musicales de l'abbaye."
+  },
+  {
+    "paragraph_a": "Un survivaliste a été arrêté pour la fabrication illégale d'une bombe artisanale. Il a alerté les secours après avoir transporté le dispositif dans un champ. Les démineurs ont neutralisé l'engin et des armes et munitions ont été trouvées chez lui.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Un groupe de jeunes de la région a lancé une initiative de nettoyage des plages locales. Ils se réunissent tous les samedis pour ramasser les déchets et leur action a été soutenue par les autorités locales."
+  },
+  {
+    "paragraph_a": "Un groupe de jeunes de la région a lancé une initiative de nettoyage des plages locales. Ils se réunissent tous les samedis pour ramasser les déchets et leur action a été soutenue par les autorités locales.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "L'équipe de football locale a remporté le championnat régional. Après une saison difficile, ils ont réussi à battre leur principal rival lors du match final."
+  },
+  {
+    "paragraph_a": "L'équipe de football locale a remporté le championnat régional. Après une saison difficile, ils ont réussi à battre leur principal rival lors du match final.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "La mairie a annoncé un plan de rénovation du centre-ville. Le projet comprend la réhabilitation de plusieurs bâtiments historiques et la création d'une nouvelle zone piétonne."
+  },
+  {
+    "paragraph_a": "Un brigadier a été tué à Avignon par un dealer, suscitant une grande émotion en France. Le suspect et son complice ont été arrêtés après cinq jours de fuite. Quatre ans plus tard, une cérémonie a eu lieu en son honneur, suivie de l'inauguration d'un square. Par ailleurs, un homme a été tué par balles dans une épicerie à Valréas, un fait divers qui a secoué cette commune habituellement paisible.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Le Tour de France 2021 a commencé le 26 juin à Brest, avec 184 coureurs de 23 équipes différentes qui s'affrontent sur un parcours de 3383 km à travers de nombreuses régions françaises."
+  },
+  {
+    "paragraph_a": "Le Tour de France 2021 a commencé le 26 juin à Brest, avec 184 coureurs de 23 équipes différentes qui s'affrontent sur un parcours de 3383 km à travers de nombreuses régions françaises.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le cycliste slovène Tadej Pogačar a remporté la 9e étape du Tour de France, entre Cluses et Tignes, avec une avance de 3 minutes et 20 secondes sur son plus proche rival."
+  },
+  {
+    "paragraph_a": "Le cycliste slovène Tadej Pogačar a remporté la 9e étape du Tour de France, entre Cluses et Tignes, avec une avance de 3 minutes et 20 secondes sur son plus proche rival.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Le Britannique Mark Cavendish a remporté l'étape du jour, entre Albertville et Valence, égalant ainsi le record de 33 victoires d'étape sur le Tour de France, détenu par l'ancien cycliste belge Eddy Merckx."
+  },
+  {
+    "paragraph_a": "Le Lidl de Fontenay-le-Comte va déménager à l'ancien centre technique municipal, rue Kléber. Des améliorations sont prévues pour rendre la rue plus sûre et plus verte, avec un budget estimé entre 250 000 et 300 000 €. Les travaux débuteront en 2026 après la démolition et les gros œuvres du futur Lidl. Une consultation avec les habitants et les commerces alentour est prévue.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "L'association Apedys 85 organise un ciné-débat sur les troubles DYS et TDAH le 16 mai à La Tranche-sur-Mer. Le documentaire 'Ma dysférence' sera projeté, suivi d'un débat avec des professionnels pour partager des solutions d'accompagnement. Une valise d'outils DYS/TDAH sera présentée pour aider les familles et les enfants au quotidien."
+  },
+  {
+    "paragraph_a": "L'association Apedys 85 organise un ciné-débat sur les troubles DYS et TDAH le 16 mai à La Tranche-sur-Mer. Le documentaire 'Ma dysférence' sera projeté, suivi d'un débat avec des professionnels pour partager des solutions d'accompagnement. Une valise d'outils DYS/TDAH sera présentée pour aider les familles et les enfants au quotidien.",
+    "transition": "Enfin, signalons qu'à",
+    "paragraph_b": "Soullans, l'association Le Combat de Quentin a été créée pour améliorer le parcours de soins des jeunes touchés par le cancer. Un concert caritatif intitulé Hardy Jazz, organisé par la chanteuse Cécile Reyne, rend hommage à Quentin et à tous les jeunes luttant contre la maladie, le 10 mai à l'espace Prévoirie de Soullans."
+  },
+  {
+    "paragraph_a": "Le nombre de naissances à Narbonne a diminué de manière spectaculaire, avec une baisse de 20,3 % entre 2014 et 2024. Cette tendance s'est accentuée l'an dernier, avec une chute d'environ 10 % des naissances à l'hôpital de Narbonne. Le vieillissement de la population et l'arrivée de nouveaux retraités sur le littoral expliquent en partie cette baisse, tandis que les municipalités cherchent à renforcer l'attractivité du territoire pour accueillir des familles plus jeunes.",
+    "transition": "Dans un autre registre,",
+    "paragraph_b": "Dimanche 4 mai, la Fête de l'asperge a eu lieu à Alzonne. Les visiteurs pouvaient déguster des asperges sous forme de glace, de smoothie ou encore de confiture. Malgré une affluence en baisse due à la pluie, l'événement a tout de même permis aux producteurs locaux de mettre en valeur leur savoir-faire et de proposer des produits originaux à un public toujours aussi friand de cette spécialité régionale."
+  },
+  {
+    "paragraph_a": "Dimanche 4 mai, la Fête de l'asperge a eu lieu à Alzonne. Les visiteurs pouvaient déguster des asperges sous forme de glace, de smoothie ou encore de confiture. Malgré une affluence en baisse due à la pluie, l'événement a tout de même permis aux producteurs locaux de mettre en valeur leur savoir-faire et de proposer des produits originaux à un public toujours aussi friand de cette spécialité régionale.",
+    "transition": "Prenons la direction de la région de la Ganguise et de Montbel, où",
+    "paragraph_b": "La situation hydrologique s'est améliorée après deux années difficiles. Les réserves d’eau affichent un taux de remplissage de 90 %, permettant aux agriculteurs de relancer leurs productions traditionnelles. Cependant, des pertes de marchés ont été subies et la gestion de l'eau reste une priorité absolue pour assurer une utilisation optimale de la ressource. Des outils de pilotage plus fins ont été mis en place pour économiser l'eau et garantir sa disponibilité à l'avenir."
+  },
+  {
+    "paragraph_a": "La situation hydrologique dans la région de la Ganguise et de Montbel s'est améliorée après deux années difficiles. Les réserves d’eau affichent un taux de remplissage de 90 %, permettant aux agriculteurs de relancer leurs productions traditionnelles. Cependant, des pertes de marchés ont été subies et la gestion de l'eau reste une priorité absolue pour assurer une utilisation optimale de la ressource. Des outils de pilotage plus fins ont été mis en place pour économiser l'eau et garantir sa disponibilité à l'avenir.",
+    "transition": "Enfin,",
+    "paragraph_b": "La neuvième édition du concours chorégraphique du studio TempsDanse se déroulera à la halle aux Grains de Castelnaudary du 16 au 18 mai. Plus de 30 écoles de danse de toute la France, dont certaines des Bouches-du-Rhône, présenteront 136 chorégraphies lors de ce rendez-vous incontournable. Un jury professionnel évaluera les danseurs en mettant l'accent sur la progression plutôt que sur la performance technique. Chaque participant recevra une médaille, une coupe et une fiche d'évaluation individualisée pour continuer à progresser. L'ambiance conviviale et bienveillante du concours met en avant le partage et l'émotion, offrant au public de belles performances à découvrir tout au long du week-end."
+  },
+  {
+    "paragraph_a": "Caen accueille une parade opératique pour son millénaire, avec une grande participation locale et un important dispositif de sécurité.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "La ville de Caen va également accueillir une course cycliste internationale, le grand prix de la ville."
+  },
+  {
+    "paragraph_a": "La ville de Caen va également accueillir une course cycliste internationale, le grand prix de la ville.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le club de football de Caen a annoncé le transfert de son attaquant vedette à l'Olympique de Marseille."
+  },
+  {
+    "paragraph_a": "Le club de football de Caen a annoncé le transfert de son attaquant vedette à l'Olympique de Marseille.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Le maire de Caen, Joël Bruneau, a annoncé sa candidature pour un troisième mandat lors des prochaines élections municipales."
+  },
+  {
+    "paragraph_a": "Le réseau Twisto offre la gratuité des transports en commun pour la parade du Millénaire de Caen le 9 mai. Les lignes principales circuleront jusqu'à 0 h 30 et un itinéraire spécial sera mis en place pour contourner le périmètre des festivités. Le tramway proposera également un dernier départ à 1 h 30.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Le Stade Malherbe Caen jouera en National au cours de la saison 2025-2026 après une année difficile marquée par sa première descente en troisième division en quarante et un ans. La remontée en Ligue 2 paraît ardue, mais le club caennais pourrait réussir en suivant les exemples de Dunkerque, du Red Star et du Paris FC, qui ont regagné la Ligue 2 après une descente en National."
+  },
+  {
+    "paragraph_a": "Le Stade Malherbe Caen jouera en National au cours de la saison 2025-2026 après une année difficile marquée par sa première descente en troisième division en quarante et un ans. La remontée en Ligue 2 paraît ardue, mais le club caennais pourrait réussir en suivant les exemples de Dunkerque, du Red Star et du Paris FC, qui ont regagné la Ligue 2 après une descente en National. Après son rachat par la famille Mbappé, le SM Caen devra probablement faire des ajustements similaires pour espérer remonter rapidement en deuxième division.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Les espaces culturels E.Leclerc ont créé des ateliers du bac pour aider les élèves de première du lycée Marie-Curie de Vire Normandie à se préparer à l'épreuve de lecture expressive du bac. Le 24 avril dernier, la comédienne Judith Henry a prodigué ses conseils aux élèves à la halle Michel-Drucker. Ils ont travaillé sur le poème 'Le Dormeur du val' de Rimbaud, apprenant à lire lentement, à respecter les alexandrins et à maîtriser l'enjambement. Les lycéens ont apprécié cet exercice, qu'ils ont trouvé à la fois ludique et instructif."
+  },
+  {
+    "paragraph_a": "Les espaces culturels E.Leclerc ont créé des ateliers du bac pour aider les élèves de première du lycée Marie-Curie de Vire Normandie à se préparer à l'épreuve de lecture expressive du bac. Le 24 avril dernier, la comédienne Judith Henry a prodigué ses conseils aux élèves à la halle Michel-Drucker. Ils ont travaillé sur le poème 'Le Dormeur du val' de Rimbaud, apprenant à lire lentement, à respecter les alexandrins et à maîtriser l'enjambement. Les lycéens ont apprécié cet exercice, qu'ils ont trouvé à la fois ludique et instructif.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Les espaces culturels E.Leclerc ont créé des ateliers du bac pour aider les élèves de première du lycée Marie-Curie de Vire Normandie à se préparer à l'épreuve de lecture expressive du bac. Le 24 avril dernier, la comédienne Judith Henry a prodigué ses conseils aux élèves à la halle Michel-Drucker. Ils ont travaillé sur le poème 'Le Dormeur du val' de Rimbaud, apprenant à lire lentement, à respecter les alexandrins et à maîtriser l'enjambement. Les lycéens ont apprécié cet exercice, qu'ils ont trouvé à la fois ludique et instructif."
+  },
+  {
+    "paragraph_a": "Un événement de voitures anciennes est organisé dans le village de Roullet-Saint-Estèphe, recréant les embouteillages des années 1960 sur la Nationale 10. Cet événement comprend une balade de 40 km et une exposition de voitures. Par ailleurs, à Val des Vignes, un lavoir du village a été restauré par des bénévoles et des professionnels locaux avec le soutien financier de la municipalité.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Le programme culturel municipal de Soyaux propose des expositions d'art et un atelier pour enfants sur la création de potions magiques, organisé par Les Petits Débrouillards."
+  },
+  {
+    "paragraph_a": "Le programme culturel municipal de Soyaux propose des expositions d'art et un atelier pour enfants sur la création de potions magiques, organisé par Les Petits Débrouillards.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Il n'y a pas de contenu sportif mentionné dans le texte."
+  },
+  {
+    "paragraph_a": "Le programme culturel municipal de Soyaux propose des expositions d'art et un atelier pour enfants sur la création de potions magiques, organisé par Les Petits Débrouillards.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "L'agence de tourisme Charentes in Flow a lancé une campagne de financement participatif pour développer sa communication et sa stratégie digitale. L'objectif est de promouvoir la région des Charentes à travers des offres touristiques originales."
+  },
+  {
+    "paragraph_a": "Un championnat régional de natation artistique s'est déroulé à La Rochelle, rassemblant de jeunes nageuses du Sud-Ouest. Le spectacle a été captivant, témoignant du talent et de la détermination des athlètes.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Yoann Marchadier et son association Timéodyssée ont entrepris un parcours de 520 km à vélo pour sensibiliser le public au cancer pédiatrique. Ils distribuent des jouets et du matériel aux enfants hospitalisés et leur voyage continuera vers plusieurs hôpitaux."
+  },
+  {
+    "paragraph_a": "Yoann Marchadier et son association Timéodyssée ont entrepris un parcours de 520 km à vélo pour sensibiliser le public au cancer pédiatrique. Ils distribuent des jouets et du matériel aux enfants hospitalisés et leur voyage continuera vers plusieurs hôpitaux.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le long week-end du 1er mai sur l'île de Ré a connu une forte affluence touristique. Des dispositifs de gestion du trafic ont été mis en place pour éviter les embouteillages et le test s'est révélé concluant."
+  },
+  {
+    "paragraph_a": "Le long week-end du 1er mai sur l'île de Ré a connu une forte affluence touristique. Des dispositifs de gestion du trafic ont été mis en place pour éviter les embouteillages et le test s'est révélé concluant.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Lors de la fête du Travail, les gendarmes de la Charente-Maritime ont mené des contrôles sur les poids lourds circulant illégalement. Plusieurs camions en infraction ont été arrêtés et un motard a été interpellé pour excès de vitesse et conduite en état d'ébriété."
+  },
+  {
+    "paragraph_a": "Annonce d'une randonnée équestre à Tonquédec et d'un spectacle de Jean-Luc Lemoine à Pléneuf-Val-André.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Information sur des perturbations routières dues à des travaux de rénovation sur la RN12 entre Guingamp et Grâces."
+  },
+  {
+    "paragraph_a": "Annonce d'une randonnée équestre à Tonquédec, d'un spectacle de Jean-Luc Lemoine à Pléneuf-Val-André et des perturbations routières dues à des travaux de rénovation sur la RN12 entre Guingamp et Grâces.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Présentation de la foire-exposition de Loudéac qui se tiendra au Vélodrome de Bretagne avec de nombreuses animations."
+  },
+  {
+    "paragraph_a": "Annonce d'une randonnée équestre à Tonquédec, d'un spectacle de Jean-Luc Lemoine à Pléneuf-Val-André, des perturbations routières dues à des travaux de rénovation sur la RN12 entre Guingamp et Grâces, et de la foire-exposition de Loudéac.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Information sur l'entrée gratuite à la foire-exposition de Loudéac, avec buvette et restauration disponibles."
+  },
+  {
+    "paragraph_a": "L'église Sainte-Cécile à Acquigny entre dans sa troisième phase de restauration, avec un objectif de collecte de fonds de 80 000 € d'ici 2028. Les travaux concernent le clos couvert de la nef, les chapelles restantes et la tour de l'Oratoire.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Les élections municipales de Louviers se tiendront le 30 juin 2025, avec deux listes déjà déclarées. Un débat public est prévu le 15 juin."
+  },
+  {
+    "paragraph_a": "Les élections municipales de Louviers se tiendront le 30 juin 2025, avec deux listes déjà déclarées. Un débat public est prévu le 15 juin.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le club de rugby de Louviers a remporté le championnat régional et se prépare maintenant pour le championnat national en septembre."
+  },
+  {
+    "paragraph_a": "Le club de rugby de Louviers a remporté le championnat régional et se prépare maintenant pour le championnat national en septembre.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Le festival de musique 'Les Rendez-vous de la musique' reviendra à Louviers pour sa 15ème édition du 10 au 15 juillet 2025, avec une programmation d'artistes locaux et nationaux."
+  },
+  {
+    "paragraph_a": "Le guide touristique 2025 du Pays du Neubourg a été dévoilé, proposant diverses idées de sorties, activités, adresses culinaires et d'hébergement, tout en mettant en valeur les producteurs locaux.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "La Ville de Vernon prévoit de rénover le parquet du gymnase de Gamilly, un lieu important pour les sportifs locaux. Un plan de financement a été établi pour les travaux de réparation et de vernissage du sol en bois."
+  },
+  {
+    "paragraph_a": "La Ville de Vernon prévoit de rénover le parquet du gymnase de Gamilly, un lieu important pour les sportifs locaux. Un plan de financement a été établi pour les travaux de réparation et de vernissage du sol en bois.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Une subvention de l'État a été demandée pour soutenir ce projet de rénovation du gymnase."
+  },
+  {
+    "paragraph_a": "Une subvention de l'État a été demandée pour soutenir ce projet de rénovation du gymnase.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Le village d'Autheuil-Authouillet fait face à des problèmes de circulation dus à la vitesse excessive des véhicules, aux croisements difficiles et aux trottoirs obstrués. Une réunion publique a été organisée pour discuter de ces problèmes et des solutions ont été proposées."
+  },
+  {
+    "paragraph_a": "Des coups de feu ont été entendus dans le quartier de Kermoysan à Quimper, le troisième incident de ce type en moins de quinze jours. La police soupçonne un lien avec le trafic de drogue local.",
+    "transition": "Dans un autre registre,",
+    "paragraph_b": "Une importante fuite de gaz s'est produite à Saint-Renan due à la rupture d'une canalisation lors de travaux de voirie. Les sapeurs-pompiers, les équipes de GRDF et les gendarmes ont intervenu rapidement, et la situation a été maîtrisée sans conséquence majeure pour la population."
+  },
+  {
+    "paragraph_a": "Une importante fuite de gaz s'est produite à Saint-Renan due à la rupture d'une canalisation lors de travaux de voirie. Les sapeurs-pompiers, les équipes de GRDF et les gendarmes ont intervenu rapidement, et la situation a été maîtrisée sans conséquence majeure pour la population.",
+    "transition": "Et nous enchaînons avec l'agenda politique :",
+    "paragraph_b": "Le ministre de l'Intérieur et prétendant à la présidence des Républicains, Bruno Retailleau, sera en visite dans le Finistère le 9 mai. Il participera à plusieurs événements, y compris l'ouverture de la nouvelle caserne de gendarmerie de Pont-l'Abbé et l'inauguration de l'extension du commissariat de police de Quimper."
+  },
+  {
+    "paragraph_a": "Une opération d'urgence a eu lieu à Branoux-les-Taillades, où un homme a tenté de se suicider après une querelle conjugale. Il a été héliporté à l'hôpital mais sa vie n'est pas en danger.",
+    "transition": "Dans l'actualité sociale, sachez que,",
+    "paragraph_b": "La grève nationale des cheminots continue dans le Gard, causant de nombreuses perturbations sur les lignes de train. Les voyageurs sont invités à consulter le site de la SNCF pour plus d'informations."
+  },
+  {
+    "paragraph_a": "La grève nationale des cheminots continue dans le Gard, causant de nombreuses perturbations sur les lignes de train. Les voyageurs sont invités à consulter le site de la SNCF pour plus d'informations.",
+    "transition": "Côté politique à présent, nous apprenons que",
+    "paragraph_b": "La maire de Crespian, Pascale Vandamme, a démissionné de son poste à l'âge de 58 ans, citant la fatigue et l'épuisement. Elle a remercié les habitants pour leur soutien et a souligné l'importance de l'enquête publique à venir pour l'avenir de la commune."
+  },
+  {
+    "paragraph_a": "La maire de Crespian, Pascale Vandamme, a démissionné de son poste à l'âge de 58 ans, citant la fatigue et l'épuisement. Elle a remercié les habitants pour leur soutien et a souligné l'importance de l'enquête publique à venir pour l'avenir de la commune.",
+    "transition": "Enfin, signalons que,",
+    "paragraph_b": "Chaque premier mardi du mois, une goguette se déroulera au Prolé d’Alès, où les participants pourront partager des textes de cœur. Un repas collectif sera organisé après les lectures."
+  },
+  {
+    "paragraph_a": "Des mines de lithium pourraient être créées dans le Grand Site Salagou-Mourèze suite à l'approbation d'un permis d'exploration minière. L'entreprise norvégienne Transitions Elements prévoit un projet d'exploration en réponse à la demande croissante de lithium pour les batteries électriques.",
+    "transition": "Dans la rubrique sportive,",
+    "paragraph_b": "Le Montpellier Hérault Sport Club Volley-Ball a perdu ses chances de se qualifier pour la finale du championnat après une défaite contre le Tours Volley-Ball. Malgré une saison impressionnante, l'équipe de Montpellier a échoué de justesse, laissant Tours accéder à sa quatrième finale consécutive."
+  },
+  {
+    "paragraph_a": "Le Montpellier Hérault Sport Club Volley-Ball a perdu ses chances de se qualifier pour la finale du championnat après une défaite contre le Tours Volley-Ball. Malgré une saison impressionnante, l'équipe de Montpellier a échoué de justesse, laissant Tours accéder à sa quatrième finale consécutive.",
+    "transition": "Dans un autre registre,",
+    "paragraph_b": "Martine Brulay, une retraitée de Sète inspirée par Antoni Gaudí, a entrepris la décoration de sa maison en utilisant la technique de la mosaïque. En récupérant des morceaux de carrelage, elle crée une œuvre d'art qui attire l'attention des passants et des touristes."
+  },
+  {
+    "paragraph_a": "Martine Brulay, une retraitée de Sète inspirée par Antoni Gaudí, a entrepris la décoration de sa maison en utilisant la technique de la mosaïque. En récupérant des morceaux de carrelage, elle crée une œuvre d'art qui attire l'attention des passants et des touristes.",
+    "transition": "Enfin,",
+    "paragraph_b": "Une convention a été signée à Montpellier pour éliminer les bidonvilles et les squats dans les dix prochaines années. Le plan comprend le relogement et l'accompagnement social des familles, avec le soutien de la Fondation pour le logement des défavorisés. Un hébergement pour 35 personnes ouvrira fin juin, avec un accompagnement pour faciliter l'accès à un logement stable."
+  },
+  {
+    "paragraph_a": "Le centre-ville de Vitré connaît une série de fermetures de boutiques de vêtements, notamment Sergent Major, Du Pareil au Même et Mom & Merveilles, ainsi que La Petite boutique et La Penderie de Naomie sur la rue Duguesclin.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Un obus de la Seconde Guerre mondiale a été découvert sur la plage de Bon-Secours à Saint-Malo le 3 mai 2025, provoquant l'évacuation de la plage et l'intervention des démineurs de la Marine nationale et de la police."
+  },
+  {
+    "paragraph_a": "Un obus de la Seconde Guerre mondiale a été découvert sur la plage de Bon-Secours à Saint-Malo le 3 mai 2025, provoquant l'évacuation de la plage et l'intervention des démineurs de la Marine nationale et de la police.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Un groupe d'amis a observé une sphère inhabituelle, possiblement une 'goutte de feu' ou foudre en boule, dans le ciel orageux près de Fougères à Saint-Sauveur-des-Landes."
+  },
+  {
+    "paragraph_a": "Un groupe d'amis a observé une sphère inhabituelle, possiblement une 'goutte de feu' ou foudre en boule, dans le ciel orageux près de Fougères à Saint-Sauveur-des-Landes.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "La journée nationale de la Résistance et le 80e anniversaire de la fin de la Seconde Guerre mondiale seront célébrés à Maen Roch avec des cérémonies, des balades immersives, des expositions sur la Résistance et des dédicaces d'auteurs locaux."
+  },
+  {
+    "paragraph_a": "Selon le président de l'Agglomération Saumur Val de Loire, Jackie Goulet, en 2024, la ville de Saumur générait plus de déchets ménagers que la moyenne nationale, ayant atteint 156 kg d'ordures ménagères résiduelles par habitant. Un contrat récent avec la SPL Saumur Agglopropreté, effectif depuis le 1er mai 2025 pour six ans, cherche à optimiser la gestion des déchets avec un budget de 9,10 millions d'euros par an.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "le 3 mai, 40 étudiants de l’institut agro d’Angers ont marché 40 km depuis leur campus jusqu'à Chalonnes-sur-Loire pour lever des fonds pour Action contre la faim. Cinq étudiantes ont organisé ce trek, qui a récolté 3 255 € de dons grâce à un système de parrainage par kilomètre avant le départ. Les fonds serviront à financer des projets de sécurité alimentaire dans les pays en développement."
+  },
+  {
+    "paragraph_a": "le 3 mai, 40 étudiants de l’institut agro d’Angers ont marché 40 km depuis leur campus jusqu'à Chalonnes-sur-Loire pour lever des fonds pour Action contre la faim. Cinq étudiantes ont organisé ce trek, qui a récolté 3 255 € de dons grâce à un système de parrainage par kilomètre avant le départ. Les fonds serviront à financer des projets de sécurité alimentaire dans les pays en développement.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "pour le Beaupréau Vélo Sport (BVS), le Tour des Mauges 2025, qui s'est achevé le 4 mai après trois étapes qui se sont déroulées sur deux jours, a une fois de plus été un succès, avec une météo clémente et un public venu en nombre. Le président du club s'est félicité de cette édition réussie, soulignant le niveau de plus en plus élevé des participants. Le BVS, connu pour son engagement dans la formation des jeunes cyclistes, a une fois de plus prouvé sa capacité à organiser des courses de vélo de haut niveau."
+  },
+  {
+    "paragraph_a": "pour le Beaupréau Vélo Sport (BVS), le Tour des Mauges 2025, qui s'est achevé le 4 mai après trois étapes qui se sont déroulées sur deux jours, a une fois de plus été un succès, avec une météo clémente et un public venu en nombre. Le président du club s'est félicité de cette édition réussie, soulignant le niveau de plus en plus élevé des participants. Le BVS, connu pour son engagement dans la formation des jeunes cyclistes, a une fois de plus prouvé sa capacité à organiser des courses de vélo de haut niveau.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Angers honore Jacques-Olivier Martin, adjoint au maire de la ville et vice-président d'Angers Loire Métropole, qui est décédé le 4 mai à 51 ans. Sa disparition crée un vide au sein de la communauté, qui l'appréciait beaucoup. La collectivité présente ses condoléances à sa famille, ses amis et tous ceux partageant ce chagrin. Christophe Béchu, maire d'Angers et président d'Angers Loire Métropole, est profondément attristé par la perte de son ami de longue date. Un hommage sera rendu à celui-ci lors des prochaines réunions du conseil d'agglomération et du conseil municipal."
+  },
+  {
+    "paragraph_a": "Annonce du 38e trophée Roñsed-Mor, un événement musical breton organisé par le bagad de Locoal-Mendon, avec plus de 310 participants attendus.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "La municipalité de Locoal-Mendon investit dans la rénovation de son réseau d'assainissement, avec des travaux prévus à partir de juin."
+  },
+  {
+    "paragraph_a": "La municipalité de Locoal-Mendon investit dans la rénovation de son réseau d'assainissement, avec des travaux prévus à partir de juin.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le club de football local, l'US Locoal-Mendon, a remporté la coupe départementale."
+  },
+  {
+    "paragraph_a": "Le club de football local, l'US Locoal-Mendon, a remporté la coupe départementale.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "La bibliothèque municipale organise une vente de livres d'occasion pour soutenir l'association 'Lire et faire lire'."
+  },
+  {
+    "paragraph_a": "Le film 'Maimaine', réalisé par Emma Lohé, documente la vie de sa grand-mère Germaine, une résidente de 90 ans du village de Carmès à Neulliac. Le film, qui sera projeté au cinéma Rex de Pontivy le 6 mai, met en lumière le quotidien de Maimaine, y compris la préparation de crêpes dans son garage transformé en crêperie privée, l'entretien de la chapelle Notre-Dame-de-Carmès, et les moments passés en famille.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "le 6 mai, plus de 600 élèves des écoles de Pontivy, Réguiny et Radenac assisteront à une cérémonie du Souvenir français, un événement préparé par les élèves après avoir assisté à une présentation de l'association du Souvenir français et visité le musée Les Sanglots Longs à Réguiny, dédié à la Seconde Guerre mondiale. Cette cérémonie scolaire rassemblera les enseignants, les élèves, une délégation militaire et le général Steiger."
+  },
+  {
+    "paragraph_a": "Le 6 mai, plus de 600 élèves des écoles de Pontivy, Réguiny et Radenac assisteront à une cérémonie du Souvenir français, un événement préparé par les élèves après avoir assisté à une présentation de l'association du Souvenir français et visité le musée Les Sanglots Longs à Réguiny, dédié à la Seconde Guerre mondiale. Cette cérémonie scolaire rassemblera les enseignants, les élèves, une délégation militaire et le général Steiger.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "il semble y avoir une erreur dans le texte original car la transition 'Dans l'actualité sportive, sachez que' n'est pas suivie d'informations sportives pertinentes."
+  },
+  {
+    "paragraph_a": "Le 6 mai, plus de 600 élèves des écoles de Pontivy, Réguiny et Radenac assisteront à une cérémonie du Souvenir français, un événement préparé par les élèves après avoir assisté à une présentation de l'association du Souvenir français et visité le musée Les Sanglots Longs à Réguiny, dédié à la Seconde Guerre mondiale. Cette cérémonie scolaire rassemblera les enseignants, les élèves, une délégation militaire et le général Steiger.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "le jeudi 15 mai, le cinéma Cinélac de Ploërmel diffusera un concert enregistré de Renaud, un des chanteurs les plus populaires de France. Le concert, qui a eu lieu le 29 septembre 2007 à La Cigale à Paris, offre aux fans une immersion dans l'univers intense et dynamique de l'artiste, qui a interprété 69 chansons lors d'un marathon musical de 5 h 30."
+  },
+  {
+    "paragraph_a": "Deux nouvelles aires de covoiturage ont été ouvertes sur l'A2, équipées de bornes de recharge électrique et de caméras. Elles ont été financées par Sanef pour 900 000 €.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Un cortège de mariage a dégénéré à Dechy, entraînant un violent accident. La voiture a percuté trois véhicules stationnés et endommagé deux habitations. Les pompiers sont intervenus pour secourir les occupants et le conducteur a été interpellé."
+  },
+  {
+    "paragraph_a": "Un cortège de mariage a dégénéré à Dechy, entraînant un violent accident. La voiture a percuté trois véhicules stationnés et endommagé deux habitations. Les pompiers sont intervenus pour secourir les occupants et le conducteur a été interpellé.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Trois adolescents ont été arrêtés pour le cambriolage d'un garage privé à Lambres-lez-Douai. Ils ont dérobé deux vélos et une caisse à outils. La police les a appréhendés et mis en garde à vue."
+  },
+  {
+    "paragraph_a": "Trois adolescents ont été arrêtés pour le cambriolage d'un garage privé à Lambres-lez-Douai. Ils ont dérobé deux vélos et une caisse à outils. La police les a appréhendés et mis en garde à vue.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Le Département du Nord a lancé Consom'action, un supermarché itinérant pour sensibiliser les habitants aux choix alimentaires. L'objectif est d'inciter les consommateurs à devenir acteurs de leurs achats. Cette initiative sera déployée dans différentes régions du Nord."
+  },
+  {
+    "paragraph_a": "Le texte décrit les travaux de rénovation en cours dans la ville d'Accous, y compris la rénovation de l'église, la construction d'une cantine scolaire et la création de logements et d'un espace multigénérationnel. Le projet est financé par diverses sources, dont des subventions et un emprunt de la ville.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Le paragraphe parle du trophée Atharri, un tournoi de pelote basque qui ouvre la saison du circuit Esku Pilota. Il mentionne certains des participants et indique que l'événement promet d'être spectaculaire."
+  },
+  {
+    "paragraph_a": "Le texte parle du trophée Atharri, un tournoi de pelote basque qui ouvre la saison du circuit Esku Pilota. Il mentionne certains des participants et indique que l'événement promet d'être spectaculaire.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le texte parle des résultats récents de matches de football. Il mentionne plusieurs équipes, dont l'Arin Luzien, l'Aviron Bayonnais et Biarritz, et discute de leur performance et de leur classement."
+  },
+  {
+    "paragraph_a": "Le texte parle des résultats récents de matches de football. Il mentionne plusieurs équipes, dont l'Arin Luzien, l'Aviron Bayonnais et Biarritz, et discute de leur performance et de leur classement.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Le paragraphe donne des informations supplémentaires sur les résultats de football, y compris la promotion de Tarnos en R2 et la bataille pour le maintien entre plusieurs équipes. Il mentionne également la victoire d'Hasparren sur Cadaujac."
+  },
+  {
+    "paragraph_a": "Une inspection inopinée a été menée sur le marché de Prades pour combattre les fraudes et le travail non déclaré, avec un marchand de contrefaçons arrêté. Ces actions sont organisées par les autorités locales pour accroître la présence policière et s'attaquer aux infractions.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "L'équipe de rugby de l'USAP se prépare à affronter le Stade Français dans un match crucial. Les Catalans doivent marquer des essais pour espérer se maintenir en Top 14, avec des enjeux financiers et sportifs importants."
+  },
+  {
+    "paragraph_a": "L'équipe de rugby de l'USAP se prépare à affronter le Stade Français dans un match crucial. Les Catalans doivent marquer des essais pour espérer se maintenir en Top 14, avec des enjeux financiers et sportifs importants.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "La ville de Perpignan se prépare à recevoir 'The Whale Street' lors du Festival de l'eau. Ce spectacle, inspiré de 'Moby-Dick', offre une expérience immersive et interactive, mettant le public au cœur de l'action."
+  },
+  {
+    "paragraph_a": "La ville de Perpignan se prépare à recevoir 'The Whale Street' lors du Festival de l'eau. Ce spectacle, inspiré de 'Moby-Dick', offre une expérience immersive et interactive, mettant le public au cœur de l'action.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "La première phase du réaménagement du front de mer à Canet-en-Roussillon a été dévoilée. L'architecte Joan Busquets dirige ce projet, qui transforme la zone en une promenade piétonne, interdite aux voitures et agrémentée de palmiers."
+  },
+  {
+    "paragraph_a": "Un braquage a eu lieu dans un bar-tabac à Rouen, suscitant l'inquiétude dans le quartier. Un véhicule a également pris feu dans une concession Peugeot à Barentin, causant des perturbations de la circulation.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "La ville de Gournay-en-Bray propose désormais un service de location de vélos pour les habitants et les touristes."
+  },
+  {
+    "paragraph_a": "Après le braquage et l'incendie de voiture, la ville de Gournay-en-Bray propose un service de location de vélos pour découvrir les paysages locaux.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Un événement maritime, Les Grandes Voiles, se déroulera au Havre cet été, avec des visites de bateaux, des animations et des concerts."
+  },
+  {
+    "paragraph_a": "Après le braquage, l'incendie de voiture et la mise en place d'un service de location de vélos à Gournay-en-Bray,",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Un événement maritime, Les Grandes Voiles, se déroulera au Havre cet été, avec des visites de bateaux, des animations et des concerts."
+  },
+  {
+    "paragraph_a": "Samedi 3 mai, à l'occasion du World Cleanup Day, les villes jumelées de Lagny-sur-Marne et de Sainte-Agathe-des-Monts (Canada) ont collaboré pour combattre la pollution. Malgré 5 538 km de distance, elles ont mobilisé les habitants pour nettoyer les rues et sensibiliser à la préservation de l'environnement. À Lagny, environ 30 personnes ont collecté 10,40 kg de détritus, incluant surtout des mégots et des canettes. À Sainte-Agathe-des-Monts, les habitants ont également pris part à ce nettoyage annuel, rappelant l’importance de prendre soin de la planète, des deux côtés de l’Atlantique.",
+    "transition": "Dans l'actualité judiciaire, souvenez-vous que",
+    "paragraph_b": "un véhicule avait brûlé sur un parking rue Leclerc à Esbly, le 22 avril 2025. Les pompiers avaient vite éteint l'incendie, empêchant qu’il atteigne le bâtiment voisin. L’enquête a révélé qu'il s'agissait d'un acte malveillant, menant à l’identification et à l’arrestation de deux suspects. Présentés devant un juge, ils ont été placés sous contrôle judiciaire avec interdiction de se rendre à Esbly, dans l’attente de leur procès prévu le 16 octobre 2025. Le maire a félicité l’efficacité des caméras de surveillance et la collaboration entre les autorités pour résoudre l’affaire."
+  },
+  {
+    "paragraph_a": "un véhicule avait brûlé sur un parking rue Leclerc à Esbly, le 22 avril 2025. Les pompiers avaient vite éteint l'incendie, empêchant qu’il atteigne le bâtiment voisin. L’enquête a révélé qu'il s'agissait d'un acte malveillant, menant à l’identification et à l’arrestation de deux suspects. Présentés devant un juge, ils ont été placés sous contrôle judiciaire avec interdiction de se rendre à Esbly, dans l’attente de leur procès prévu le 16 octobre 2025. Le maire a félicité l’efficacité des caméras de surveillance et la collaboration entre les autorités pour résoudre l’affaire.",
+    "transition": "D'autre part,",
+    "paragraph_b": "le poste de police municipale de la gare de Melun, ouvert en décembre 2024, a réussi à s'intégrer efficacement dans le paysage local. Les premiers résultats sont jugés positifs, avec une baisse des infractions constatées depuis son installation. La présence des agents sur le terrain et le travail de proximité effectué ont permis d'améliorer la sécurité et la tranquillité publique dans ce quartier stratégique de la ville."
+  },
+  {
+    "paragraph_a": "le poste de police municipale de la gare de Melun, ouvert en décembre 2024, a réussi à s'intégrer efficacement dans le paysage local. Les premiers résultats sont jugés positifs, avec une baisse des infractions constatées depuis son installation. La présence des agents sur le terrain et le travail de proximité effectué ont permis d'améliorer la sécurité et la tranquillité publique dans ce quartier stratégique de la ville.",
+    "transition": "Enfin, prenons la direction de",
+    "paragraph_b": "La Ferté-sous-Jouarre, qui prévoit deux jours d'animations sur ses marchés pour le printemps et la fête des Mères. Le 23 mai, une tombola et des roses seront offertes aux clients sur le marché du boulevard Turenne. Le 25 mai, des roses seront aussi données par les élus sur le marché de la place de l’Hôtel-de-Ville. Artisans et associations pourront présenter leur savoir-faire le 23 mai et décoreront leurs stands sur le thème du printemps. Les inscriptions sont acceptées jusqu'au 15 mai."
+  },
+  {
+    "paragraph_a": "Le Niort Rugby Club a perdu une finale mais reste optimiste pour son prochain match.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Un accident de la route a gravement blessé un jeune de 17 ans près de Niort."
+  },
+  {
+    "paragraph_a": "Un accident de la route a eu lieu près de Niort, blessant gravement un jeune de 17 ans.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "Le conseil municipal de Niort a décidé d'accorder des subventions aux associations locales, dont une grande partie est destinée au Niort Jazz Festival et à diverses associations culturelles, sportives et de solidarité."
+  },
+  {
+    "paragraph_a": "Le conseil municipal de Niort a décidé d'accorder des subventions aux associations locales, dont une grande partie est destinée au Niort Jazz Festival et à diverses associations culturelles, sportives et de solidarité.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Un éleveur de vaches et de chèvres a disparu à Fontarnault, avec des recherches en cours mais la possibilité d'un suicide est envisagée."
+  },
+  {
+    "paragraph_a": "Amiens Métropole met en garde contre des démarchages abusifs liés à la rénovation énergétique et propose un accompagnement pour l'audit énergétique et les travaux. Brailly-Cornehotte, un village de la Somme, installe des feux de circulation comportementaux pour contrer les excès de vitesse sur la RD56.",
+    "transition": "Dans l'actualité sportive, sachez que",
+    "paragraph_b": "La 17e édition de La Gapennoise a eu lieu à Gapennes, avec un nombre record de participants. L'événement a proposé des parcours VTT, des marches et des trails, et a été marqué par une ambiance conviviale. Le prochain rendez-vous est prévu pour La Forestière le 6 juillet à Crécy-en-Ponthieu."
+  },
+  {
+    "paragraph_a": "La 17e édition de La Gapennoise a eu lieu à Gapennes, avec un nombre record de participants. L'événement a proposé des parcours VTT, des marches et des trails, et a été marqué par une ambiance conviviale. Le prochain rendez-vous est prévu pour La Forestière le 6 juillet à Crécy-en-Ponthieu.",
+    "transition": "Enfin, nous apprenons que",
+    "paragraph_b": "Dans la baie de Somme, des migrants ont tenté de traverser la Manche avec une embarcation précaire. Ils ont été secourus par le patrouilleur DFP1 Jacques Oudart Fourmentin et débarqués à Boulogne-sur-Mer, où ils ont été pris en charge par les autorités. La préfecture maritime met en garde contre les dangers de traverser la Manche."
+  },
+  {
+    "paragraph_a": "À Amiens, la métropole alerte sur des démarchages abusifs liés à la rénovation énergétique, à la suite du signalement d'une dizaine d'habitants. Les démarcheurs prétendent agir pour le compte d'Amiens Métropole et insistent sur l'obligation de rénover, alors que cette démarche est volontaire. La collectivité rappelle qu'un audit du logement par un professionnel agréé est nécessaire avant d'engager des travaux, et met en garde contre les engagements écrits hâtifs. Amiens Métropole propose un accompagnement pour l'audit énergétique et les travaux, sous conditions, et invite à contacter la plateforme Laure pour des conseils gratuits et impartiaux.",
+    "transition": "Dans un tout autre registre,",
+    "paragraph_b": "Brailly-Cornehotte, un petit village de la Somme, est confronté à des excès de vitesse alarmants sur la RD56. Pour contrer ce phénomène, la municipalité a décidé d'installer des feux de circulation comportementaux, qui restent rouges en cas d'excès de vitesse. Ces dispositifs autonomes et financés en partie par la communauté de communes et le Département visent à sensibiliser les automobilistes et à améliorer la sécurité routière dans la commune."
   }
 ]
